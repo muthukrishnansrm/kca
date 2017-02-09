@@ -1,0 +1,284 @@
+/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+.logo-img img{
+  width: 160%;
+  height: auto;
+}
+
+.front #region-content{
+	width: 34%;
+}
+
+.responsive-menus.responsified{
+	display:none;
+}
+
+.front #region-sidebar-first.grid-3 {
+	width: 34%;
+  padding-top: 0px;
+  padding-right: 0px;
+}
+
+.not-front #region-sidebar-second{
+	margin-top: -10px;
+}
+
+#block-multiblock-1,
+#block-multiblock-2,
+#block-multiblock-5,
+#block-multiblock-7{
+	display: none;
+}
+
+#block-views-clinical-trials-block-1,
+#block-twitter-block-1{
+	display:block;
+}
+
+.front .region-inner.region-sidebar-first-inner,
+.front .region-inner.region-content-inner{ 
+        display:block;
+}
+
+.front #block-views-meetings-block,
+.front #block-block-31{ 
+        display: block;
+}
+
+.page-upcoming-meetings .views-field-field-meeting-image .field-content img{
+	height: 40px; 
+	margin-bottom:55px;
+}
+
+.front .field-content img {
+        float: left;
+        padding-right: 10px;
+        height: 40px;
+        padding-bottom: 55px;
+}
+
+/*.front .block-twitter-block {
+	display: block;
+}
+
+.front #zone-content .block-block-31 .content,
+.front #zone-content .block-twitter-block .content {
+	display: block;
+}*/
+
+#block-block-31{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 0px;
+}
+
+#block-block-25,
+#block-views-clinical-trials-block-1{
+	height: 300px;
+}
+
+#block-views-meetings-block,
+#block-views-paper-alert-block-4{
+	height: 280px;
+}
+
+#block-views-paper-alert-block-3{
+	display: none;
+}
+
+@media only screen and (max-width: 960px){
+#block-block-25,
+#block-views-clinical-trials-block-1,
+#block-views-meetings-block,
+#block-views-paper-alert-block-4{
+	overflow: auto;
+	margin-bottom: 20px;
+}
+.front #block-block-31{
+	overflow: auto;
+}
+#region-footer-first{
+	padding-left: 0px;
+}
+
+.front .block-nivo-slider{
+  margin-top: 35px;
+  height: 250px;
+}
+.front .nivoSlider{
+  height: 250px;
+  display: block;
+}
+.front .nivoSlider img{
+  height: 250px;
+}
+.front .nivo-caption{
+  height: 250px;
+  font-size: 12px;
+  line-height: 20px;
+}
+.front .region-sidebar-second img {
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%; 
+  height: auto;  
+}
+.front .region-sidebar-second {
+        height: 930px;
+}
+#block-scfmembers-scfmembers-user-top-menu{
+        width: 100%;
+}
+.front .views-field.views-field-field-meeting-location{
+	padding-left: 85px;
+}
+#region-menu ul.nice-menu li{
+        background: #4D317A;
+}
+#region-menu ul.nice-menu li.last:hover{
+        background: #9684BC;
+}
+#region-menu ul.nice-menu li.last:active{
+        background: #9684BC;
+}
+}
+
+@media only screen and (min-width: 961px){
+.front .nivoSlider img{
+  height: 345px;
+}
+.front .region-sidebar-second img {
+        display: block;
+  margin-left: auto;
+  margin-right: auto;   
+}
+.front .region-sidebar-second {
+        height: 910px;
+}
+}
+
+.region-sidebar-second {
+	display: block;
+}
+
+/*#region-menu ul.nice-menu li.last{
+  background: #4D317A;
+}*/
+
+#block-block-15 {
+	display: block;
+	float: right;
+	padding-top: 20px;
+}
+
+/*#block-scfmembers-scfmembers-user-top-menu{
+	width: 100%;
+}*/
+
+.page-ltte .container-12 .grid-6,
+.page-contact .container-12 .grid-6{
+  width: 700px;
+}
+
+.container-12 .grid-3{
+	margin-top: 10px;
+}
+
+/*#region-sidebar-first.grid-3.region.region-sidebar-first{
+	display: block;
+}*/
+
+.footer-1,
+.footer-2,
+.footer-3,
+.footer-4,
+.footer-5 {
+	width: 15%;
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 30px;
+}
+
+@media only screen and (min-width: 961px){
+.front .nivoSlider {
+  height: 345px;
+  display: block;
+}
+.front .nivo-caption{
+  height: 345px;
+  font-size: 14px;
+  line-height: 35px;
+}
+#block-scfmembers-scfmembers-user-top-menu{
+	width: 600px;
+	float: right;
+}
+}
+
+.front .nivo-caption {
+  width: 30%; 
+  font-family: "Futura Book", "Century Gothic", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+ /* font-size: 14px;*/  
+  font-weight: lighter;
+  /*line-height: 35px;*/
+  opacity: 0.8;
+  padding: 20px 20px;
+}
+
+#region-menu.grid-12 {
+	display: block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#block-system-main-menu{
+	display: none;
+}
+
+#block-menu-block-1{
+  display: block;
+}
+
+#region-branding {  
+  width: 300px;
+  display: inline-block;
+  float: left;
+}
+
+.front .nivo-controlNav {
+	position: absolute;
+	left: 90%;
+	top: 90%;
+}
+
+
+form#user-register-form label {
+    color: #727272;
+    float: left;
+    font-size: 11px;
+    padding-right: 16px;
+    padding-top: 1px;
+    text-align: right;
+    text-transform: uppercase;
+    width: 160px;
+}
+
+form#user-register-form .description {
+    clear: both;
+    margin-left: 180px;
+    width: 360px;
+}
+
+form#user-register-form .form-text,
+form#user-register-form .form-textarea {
+    border: 1px solid #727272;
+    color: #000;
+    width: 360px;
+}
+
+form#user-register-form select {
+    border: 1px solid #727272;
+    color: #000;
+    width: 360px;
+}
+
